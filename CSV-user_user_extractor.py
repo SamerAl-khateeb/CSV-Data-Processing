@@ -69,6 +69,9 @@ def main():
           #creating a csv writer object 
           csvwriter = csv.writer(csv_output_file, delimiter=',', lineterminator='\n')
           
+          #write the columns headers
+          csvwriter.writerow(["source", "text", "relationship_type", "relation_date", "relation_time", "user_followers_count", "user_friends_count", "user"])
+          
           #creating a list of values (a row) 
           CSV_output_row = [from_user, text, relationship_type, relation_date, relation_time, user_followers_count, user_friends_count, eachUserMentioned["screen_name"]]
           

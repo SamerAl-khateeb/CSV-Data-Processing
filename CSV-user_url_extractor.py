@@ -1,7 +1,8 @@
 # A code to extract User X URL network   By: Samer Al-khateeb
 #################################################################
 #How to use this file:
-#Download the TAGs(Twitter Archiving Google Sheet) file you used to collect data as CSV file 
+#After collecting Twitter data from TAGs(Twitter Archiving Google Sheet, https://tags.hawksey.info)
+#Download the file you used to collect data as CSV file 
 #save this file to the same directory as this code
 #remove the header of the file (the first row in the file)
 #change the name of the file (the value of the "input_filename" variable) 

@@ -20,7 +20,7 @@ def main():
   CSV_output_list =[]
 
   #variable that hold the file name
-  input_filename = 'test.csv'
+  input_filename = 'input.csv'
 
   #open the input file and read it
   with open(input_filename, newline='', encoding='utf-8') as csv_input_file:

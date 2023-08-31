@@ -25,7 +25,7 @@ def main():
   with open(input_filename, newline='', encoding='utf-8') as csv_input_file:
     CSV_file_as_list = csv.reader(csv_input_file, skipinitialspace=True)
     
-    #process each ron in the input file
+    #process each row in the input file
     for row in CSV_file_as_list:
       count = count +1
       print()
